@@ -1,0 +1,68 @@
+<head>
+  <title>dairy</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">CREDIBLE</a>
+
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+        </div><!-- /.navbar-collapse -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <nav class="navbar navbar-default hidden-sm hidden-md hidden-lg">
+                <ul class="nav navbar-nav" >
+                  <li class="{{isActiveRoute 'price'}}"><a href="/price">Price</a></li>
+                  <li class="{{isActiveRoute 'production'}}"><a href="/production">Production</a></li>
+                  <li class="{{isActiveRoute 'market_overview'}}"><a href="/market_overview">Overview</a></li>
+                  <li class="{{isActiveRoute 'consumption'}}"><a href="/consumption">Consumption</a></li>
+                  <li class="{{isActiveRoute 'trade'}}"><a href="/consumption">Trade</a></li>
+                  <li class="{{isActiveRoute 'suppliers'}}"><a href="/consumption">Suppliers</a></li>
+                  <li class="{{isActiveRoute 'geography'}}"><a href="/consumption">Geography</a></li>
+                  <li class="{{isActiveRoute 'news'}}"><a href="/consumption">News Feed</a></li>
+                  <li class="{{isActiveRoute 'policy'}}"><a href="/consumption">Policy</a></li>
+                </ul>
+              </nav>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+
+          <nav class="navbar navbar-default navbar-fixed-left hidden-xs col-sm-3 col-md-2 col-lg-1">
+            <ul class="nav navbar-nav" >
+              <li class="{{isActiveRoute 'price'}}"><a href="/price">Price</a></li>
+              <li class="{{isActiveRoute 'production'}}"><a href="/production">Production</a></li>
+              <li class="{{isActiveRoute 'market_overview'}}"><a href="/market_overview">Overview</a></li>
+              <li class="{{isActiveRoute 'consumption'}}"><a href="/consumption">Consumption</a></li>
+              <li class="{{isActiveRoute 'trade'}}"><a href="/consumption">Trade</a></li>
+              <li class="{{isActiveRoute 'suppliers'}}"><a href="/consumption">Suppliers</a></li>
+              <li class="{{isActiveRoute 'geography'}}"><a href="/consumption">Geography</a></li>
+              <li class="{{isActiveRoute 'news'}}"><a href="/consumption">News Feed</a></li>
+              <li class="{{isActiveRoute 'policy'}}"><a href="/consumption">Policy</a></li>
+            </ul>
+          </nav>
+        </nav>
+</body>
