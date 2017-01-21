@@ -1,0 +1,22 @@
+<template name="news">
+  <div class="container col-xs-12 col-sm-8 col-md-10 col-lg-11">
+    <h3 font-family:Muli> Dairy News </h3>
+        <div>
+            {{#each news}}
+                <div class="article">
+                  <h4>{{title}}</h4>
+                  <h5>{{date}}</h5>
+                  <img src={{image}} class="newsImage">
+                  {{> articlebody}}
+
+              </div>
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="articlebody">
+  <div class="articlebody">
+  {{body}}
+</div>
+</template>

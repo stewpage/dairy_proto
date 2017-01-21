@@ -11,6 +11,7 @@
   float: right;
   padding-right: 3%;
 }
+
 /*
 @media screen and (min-width: 768px){
 
@@ -61,4 +62,34 @@
 .thumbnail{
   min-height: 300px;
   max-height: 300px;
+}
+
+
+.article {
+  font-family: Muli;
+  padding: 10px;
+  margin-top: 10px;
+  border-bottom: solid 1px #00BB00;
+}
+
+.newsImage {
+max-width: 100px;
+}
+.ellip {
+  display: block;
+  height: 100%;
+}
+
+.ellip-line {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  max-width: 100%;
+}
+
+.ellip,
+.ellip-line {
+  position: relative;
+  overflow: hidden;
 }
