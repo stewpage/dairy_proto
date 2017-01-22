@@ -63,17 +63,41 @@
   min-height: 300px;
   max-height: 300px;
 }
-
+.newsHeading{
+font-family:Muli;
+font-size: 25px;
+padding-left: 20px;
+}
 
 .article {
   font-family: Muli;
-  padding: 10px;
+  padding: 20px;
   margin-top: 10px;
-  border-bottom: solid 1px #00BB00;
+  box-shadow: 0px 40px 2px -40px #00BB00;
+  -webkit-box-shadow:0px 40px 2px -40px #00BB00;
+  -moz-box-shadow:0px 40px 2px -40px #00BB00;
+}
+
+article:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 50%;;
+  width   : your width here  /* or 100px */
+  border-bottom:1px solid magenta;
 }
 
 .newsImage {
 max-width: 100px;
+}
+
+.articleLink{
+  float: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  color: inherit;;
+  font-weight: 100;
 }
 .ellip {
   display: block;

@@ -1,6 +1,6 @@
 <template name="news">
   <div class="container col-xs-12 col-sm-8 col-md-10 col-lg-11">
-    <h3 font-family:Muli> Dairy News </h3>
+    <p class="newsHeading"> Dairy News </p>
         <div>
             {{#each news}}
                 <div class="article">
@@ -8,7 +8,8 @@
                   <h5>{{date}}</h5>
                   <img src={{image}} class="newsImage">
                   {{> articlebody}}
-
+                  <a href={{url}} target="_blank" class="articleLink"> Read article on {{source.title}}</a>
+                  <br/>
               </div>
             {{/each}}
         </div>

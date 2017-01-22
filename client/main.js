@@ -36,21 +36,36 @@ Router.route('/policy', {
 });
 // import './main.html';
 
-Template.news.helpers({
-  news:function(){
-    return News.find();
-  }
-});
 
-// Template.articlebody.onRendered(function(){
-// this.$("#articlebody").dotdotdot(); // This only runs on the first element
-// this.$(".articlebody").dotdotdot(); // This runs on all elements
-// console.log('foofoo')
-// });
+/// Ellipsis
 Template.articlebody.onRendered(function(){
 this.$('.articlebody').ellipsis({
   lines: 3,             // force ellipsis after a certain number of lines. Default is 'auto'
   ellipClass: 'ellip',  // class used for ellipsis wrapper and to namespace ellip line
   responsive: true      // set to true if you want ellipsis to update on window resize. Default is false
 });
+});
+
+
+Template.news.helpers({
+  news:function(){
+    return News.find({},{sort: {},  limit:Session.get("articleLimit")});
+      // return News.find({limit:Session.get("articleLimit")});
+  }
+});
+
+/// infiniscroll
+Session.set("articleLimit",8);
+lastScrollTop = 0;
+$(window).scroll(function(event){
+  // test if we are near the bottom of the window
+  if($(window).scrollTop() + $(window).height() > $(document).height() - 100){
+    // whre are we in the page
+    var scrollTop = $(this).scrollTop();
+    // test if we are going down
+    if (scrollTop > lastScrollTop){
+      Session.set("articleLimit", Session.get("articleLimit") + 4);
+    }
+    lastScrollTop = scrollTop
+  }
 });
