@@ -21,3 +21,38 @@
   {{body}}
 </div>
 </template>
+
+<template name="newsSmall">
+  <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h4> Dairy News </h4>
+            {{#each news}}
+                <div class="articleSmall">
+                  <h6>{{title}}</h6>
+                  <p>{{date}}</p>
+                  {{#if noImg}}
+                      <div class="row">
+                        <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                          {{> articlebody}}
+                          <a href={{url}} target="_blank" class="articleLink"> Read article on {{source.title}}</a>
+                          <br/>
+                          <br/>
+                        </div>
+                      </div><!-- end of row-->
+                  {{else}}
+                  <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <img src={{image}} class="newsImageSmall">
+                    </div>
+                    <div class="container col-xs-10 col-sm-10 col-md-10 col-lg-10" >
+                      {{> articlebody}}
+                      <a href={{url}} target="_blank" class="articleLink"> Read article on {{source.title}}</a>
+                      <br/>
+                      <br/>
+                    </div>
+                  </div><!-- end of row-->
+                  {{/if}}
+                </div>
+            {{/each}}
+
+    </div>
+</template>

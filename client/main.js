@@ -54,6 +54,30 @@ Template.news.helpers({
   }
 });
 
+Template.newsSmall.helpers({
+  news:function(){
+    return News.find({},{sort: {},  limit:Session.get("articleLimit")});
+      // return News.find({limit:Session.get("articleLimit")});
+  },
+  noImg:function(){
+      if(this.image){
+        var imageString = String(this.image)
+        if (imageString.indexOf("//cts.re") >= 0 || imageString.indexOf("//www.emailwire.") >= 0){
+          return true;
+        console.log(imageString);
+          }
+          else{
+        return false;
+              }
+      }
+      else{
+        return true;
+      }
+  }
+
+});
+
+
 /// infiniscroll
 Session.set("articleLimit",8);
 lastScrollTop = 0;
