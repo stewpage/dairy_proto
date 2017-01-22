@@ -56,7 +56,7 @@ Template.news.helpers({
 
 Template.newsSmall.helpers({
   news:function(){
-    return News.find({},{sort: {},  limit:Session.get("articleLimit")});
+    return News.find({},{sort: {},  limit:30});
       // return News.find({limit:Session.get("articleLimit")});
   },
   noImg:function(){
