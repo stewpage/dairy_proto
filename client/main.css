@@ -17,7 +17,6 @@ h4{
   padding-right: 3%;
 }
 
-
 .navbar-default .navbar-brand {
         color: #00BB00;
         font-family: "Muli";
@@ -98,7 +97,6 @@ padding-left: 20px;
 
 }
 
-
 .prodNews {
   font-family: Muli;
   overflow-y: scroll;
@@ -110,7 +108,6 @@ padding-left: 20px;
 .newsImage {
 max-width: 100px;
 }
-
 
 
 .articleLink{
@@ -137,4 +134,8 @@ max-width: 100px;
 .ellip-line {
   position: relative;
   overflow: hidden;
+}
+
+.milkPriceChart{
+  padding-left: 1.5em;
 }

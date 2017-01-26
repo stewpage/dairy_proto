@@ -47,6 +47,8 @@ this.$('.articlebody').ellipsis({
 });
 
 
+
+
 Template.news.helpers({
   news:function(){
     return News.find({},{sort: {},  limit:Session.get("articleLimit")});
