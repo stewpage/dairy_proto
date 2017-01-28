@@ -18,7 +18,7 @@ Router.route('/consumption', {
 });
 
 Router.route('/trade', {
-    template: 'consumption'
+    template: 'trade'
 });
 
 Router.route('/suppliers', {

@@ -1,0 +1,45 @@
+[
+    {
+        "data": [
+            {
+                "cat": "U ARAB EMTS",
+                "val": 1189.26
+            },
+            {
+                "cat": "KUWAIT",
+                "val": 210.7
+            },
+            {
+                "cat": "SAUDI ARAB",
+                "val": 165.66
+            },
+            {
+                "cat": "NEPAL",
+                "val": 122.3
+            },
+            {
+                "cat": "OMAN",
+                "val": 92.97
+            },
+            {
+                "cat": "BAHARAIN IS",
+                "val": 72.88
+            },
+            {
+                "cat": "MAURITIUS",
+                "val": 58.75
+            },
+            {
+                "cat": "CONGO D. REP.",
+                "val": 58.48
+            },
+            {
+                "cat": "others",
+                "val": 186.21000000000004
+            }
+        ],
+        "total": 2157.21,
+        "type": "Export value",
+        "unit": " Lakh Rs"
+    }
+]

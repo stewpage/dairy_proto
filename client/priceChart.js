@@ -42,12 +42,7 @@ var line = d3.svg.line()
 
 var maxY; // Defined later to update yAxis
 //
-// var svg = d3.select("body").append("svg")
-//     .classed("svg-container", true)
-//     .attr("width", width + margin.left + margin.right)
-//     .attr("height", height + margin.top + margin.bottom) //height + margin.top + margin.bottom
-//   .append("g")
-//     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
 var svg = d3.select("div#milkchart")
    .append("div")
