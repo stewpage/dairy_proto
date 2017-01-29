@@ -46,7 +46,17 @@ this.$('.articlebody').ellipsis({
 });
 });
 
+Template.news.onCreated(function bodyOnCreated() {
+  Meteor.subscribe('news');
+})
 
+Template.newsSmall.onCreated(function bodyOnCreated() {
+  Meteor.subscribe('news');
+})
+
+// Template.trade.onCreated(function bodyOnCreated() {
+//   Meteor.subscribe('exports');
+// })
 
 
 Template.news.helpers({
@@ -78,6 +88,7 @@ Template.newsSmall.helpers({
   }
 
 });
+
 
 
 /// infiniscroll

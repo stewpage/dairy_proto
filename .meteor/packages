@@ -23,10 +23,10 @@ twbs:bootstrap
 accounts-ui
 accounts-password
 kadira:blaze-layout
-autopublish
 iron:router
 zimme:active-route
 verron:jquery-dotdotdot
 session
 d3js:d3
 d3
+lookback:dropdowns

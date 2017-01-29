@@ -1,5 +1,13 @@
 <template name="trade">
-<div class="container col-xs-12 col-sm-4 col-md-4 col-lg-3" id="donut-charts">
+<div class="container col-xs-12 col-sm-4 col-md-5 col-lg-4" id="donut-charts">
+<div class="select-style">
+<select id="month-select" class="dropdown">
+    <option  disabled="disabled" selected="selected">Select year</option>
+    {{#each months}}
+        <option value="{{this}}">{{this}}</option>
+    {{/each}}
+</select>
+</div>
 </div>
 
 </template>

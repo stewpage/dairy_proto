@@ -1,19 +1,30 @@
-Template.trade.onRendered(function () {
-  this.autorun(function () {
 
+Template.trade.onRendered(function () {
+
+  this.autorun(function () {
+      Session.set('donutmonth', "2015-2016");
+    var subs = Meteor.subscribe("exports");
+    this.autorun(function() {
+      if (subs.ready()) {
+        var selectedMonth = Session.get('donutmonth');
+        coldata = Exports.find({month: selectedMonth}).fetch()[0].exports;
+
+      } else {
+        console.log("> Subscription is not ready yet. \n\n");
+      }
 
     $(function() {
       $.getJSON("donutdata.json", function(json) {
           var dataset2 = json;
-          var donutData = dataset2
-
-
+          // var donutData = dataset2
+          var donutData = coldata
         var donuts = new DonutCharts();
         donuts.create(donutData);
 
 
+        });
     });
-    });
+
 
 
     function DonutCharts() {
@@ -26,16 +37,20 @@ Template.trade.onRendered(function () {
             color = d3.scale.category20();
 
         var getCatNames = function(dataset) {
+
             var catNames = new Array();
 
             for (var i = 0; i < dataset[0].data.length; i++) {
                 catNames.push(dataset[0].data[i].cat);
+
             }
+            console.log(catNames);
             return catNames;
 
         }
 
         var createLegend = function(catNames) {
+
             var legends = charts.select('.legend')
                             .selectAll('g')
                                 .data(catNames)
@@ -246,10 +261,9 @@ Template.trade.onRendered(function () {
 
         this.create = function(dataset) {
             var $charts = $('#donut-charts');
+d3.selectAll("svg").remove();
             chart_m = $charts.innerWidth() / dataset.length / 2 * 0.07;
             chart_r = $charts.innerWidth() / dataset.length / 2 * 0.85;
-            console.log(chart_r);
-            console.log(chart_m);
 
             charts.append('svg')
                 .attr('class', 'legend')
@@ -272,9 +286,11 @@ Template.trade.onRendered(function () {
             createCenter();
 
             updateDonut();
+
         }
 
     }
 
   });
 });
+  });

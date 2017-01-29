@@ -83,3 +83,18 @@ body {
     top: -10px;
     left: 0;
 }
+
+.center-txt.type{
+  font-family: "Muli";
+  font-size: 1.7em;
+}
+
+.center-txt,value{
+  font-family: "Muli";
+  font-size: 1.4em;
+}
+
+.center-txt.percentage{
+  font-family: "Muli";
+  font-size: 1.4em;
+}

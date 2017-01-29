@@ -7,11 +7,25 @@ Meteor.startup(() => {
      if (News.find().count() === 0) {
          var data = JSON.parse(Assets.getText("news.json"));
          results = data.results
-         console.log(data.results[14]);
-
          results.forEach(function (item, index, results) {
              News.insert(item);
          })
      }
+     if (Exports.find().count() === 0) {
+         var data = JSON.parse(Assets.getText("exportdata.json"));
+         data.forEach(function (item, index, results) {
+             Exports.insert(item);
+         })
+
+    }
+
 });
-// import data only when Products collection is empty
+
+
+  Meteor.publish('news', function newsPublication() {
+    return News.find();
+  });
+
+  Meteor.publish('exports', function exportsPublication() {
+    return Exports.find();
+  });
