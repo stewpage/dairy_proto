@@ -2,12 +2,17 @@
 Template.trade.onRendered(function () {
 
   this.autorun(function () {
+
       Session.set('donutmonth', "2015-2016");
-    var subs = Meteor.subscribe("exports");
+      Session.set('donutproduct', "0405");
+    var subs = Meteor.subscribe("productexporttop");
     this.autorun(function() {
       if (subs.ready()) {
         var selectedMonth = Session.get('donutmonth');
-        coldata = Exports.find({month: selectedMonth}).fetch()[0].exports;
+        var selectedProduct = Session.get('donutproduct');
+        coldata = ProductExportTop.find({$and: [{month: selectedMonth},
+                                              {product:selectedProduct}]
+        }).fetch()[0].exports;
 
       } else {
         console.log("> Subscription is not ready yet. \n\n");
@@ -30,7 +35,7 @@ Template.trade.onRendered(function () {
     function DonutCharts() {
 
 
-        var charts = d3.select('#donut-charts');
+        var donutcharts = d3.select('#donut-charts');
 
         var chart_m,
             chart_r,
@@ -44,14 +49,13 @@ Template.trade.onRendered(function () {
                 catNames.push(dataset[0].data[i].cat);
 
             }
-            console.log(catNames);
             return catNames;
 
         }
 
         var createLegend = function(catNames) {
 
-            var legends = charts.select('.legend')
+            var legends = donutcharts.select('.legend')
                             .selectAll('g')
                                 .data(catNames)
                             .enter().append('g')
@@ -98,7 +102,7 @@ Template.trade.onRendered(function () {
                 },
 
                 'click': function(d, i) {
-                    var paths = charts.selectAll('.clicked');
+                    var paths = donutcharts.selectAll('.clicked');
                     pathAnim(paths, 0);
                     paths.classed('clicked', false);
                     resetAllCenterText();
@@ -149,11 +153,11 @@ Template.trade.onRendered(function () {
         }
 
         var resetAllCenterText = function() {
-            charts.selectAll('.value')
+            donutcharts.selectAll('.value')
                 .text(function(d) {
                     return d.total.toFixed(1) + d.unit;
                 });
-            charts.selectAll('.percentage')
+            donutcharts.selectAll('.percentage')
                 .text('');
         }
 
@@ -186,7 +190,7 @@ Template.trade.onRendered(function () {
                 'mouseover': function(d, i, j) {
                     pathAnim(d3.select(this), 1);
 
-                    var thisDonut = charts.select('.type' + j);
+                    var thisDonut = donutcharts.select('.type' + j);
                     thisDonut.select('.value').text(function(donut_d) {
                         return d.data.val.toFixed(1) + donut_d.unit;
                     });
@@ -200,12 +204,12 @@ Template.trade.onRendered(function () {
                     if (!thisPath.classed('clicked')) {
                         pathAnim(thisPath, 0);
                     }
-                    var thisDonut = charts.select('.type' + j);
+                    var thisDonut = donutcharts.select('.type' + j);
                     setCenterText(thisDonut);
                 },
 
                 'click': function(d, i, j) {
-                    var thisDonut = charts.select('.type' + j);
+                    var thisDonut = donutcharts.select('.type' + j);
 
                     if (0 === thisDonut.selectAll('.clicked')[0].length) {
                         thisDonut.select('circle').on('click')();
@@ -234,7 +238,7 @@ Template.trade.onRendered(function () {
                             });
 
             // Start joining data with paths
-            var paths = charts.selectAll('.donut')
+            var paths = donutcharts.selectAll('.donut')
                             .selectAll('path')
                             .data(function(d, i) {
                                 return pie(d.data);
@@ -260,22 +264,24 @@ Template.trade.onRendered(function () {
         }
 
         this.create = function(dataset) {
-            var $charts = $('#donut-charts');
-d3.selectAll("svg").remove();
-            chart_m = $charts.innerWidth() / dataset.length / 2 * 0.07;
-            chart_r = $charts.innerWidth() / dataset.length / 2 * 0.85;
+            var $donutcharts = $('#donut-charts');
+            d3.selectAll("svg.legend").remove();
+            d3.selectAll("svg.donutnew").remove();
+            chart_m = $donutcharts.innerWidth() / dataset.length / 2 * 0.07;
+            chart_r = $donutcharts.innerWidth() / dataset.length / 2 * 0.85;
 
-            charts.append('svg')
+            donutcharts.append('svg')
                 .attr('class', 'legend')
                 .attr('width', '100%')
                 .attr('height', 60)
                 .attr('transform', 'translate(0, -700)');
 
-            var donut = charts.selectAll('.donut')
+            var donut = donutcharts.selectAll('.donut')
                             .data(dataset)
                         .enter().append('svg:svg')
                             .attr('width', (chart_r + chart_m) * 2)
                             .attr('height', (chart_r + chart_m) * 2)
+                            .attr('class', 'donutnew')
                         .append('svg:g')
                             .attr('class', function(d, i) {
                                 return 'donut type' + i;
@@ -290,7 +296,10 @@ d3.selectAll("svg").remove();
         }
 
     }
+    });
 
-  });
+
+
+
 });
   });

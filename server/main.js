@@ -11,14 +11,33 @@ Meteor.startup(() => {
              News.insert(item);
          })
      }
-     if (Exports.find().count() === 0) {
-         var data = JSON.parse(Assets.getText("exportdata.json"));
+    //  if (Exports.find().count() === 0) {
+    //      var data = JSON.parse(Assets.getText("exportdata.json"));
+    //      data.forEach(function (item, index, results) {
+    //          Exports.insert(item);
+    //      })
+
+    // }
+    if (ExportsFull.find().count() === 0) {
+        var data = JSON.parse(Assets.getText("exportdata_full.json"));
+        data.forEach(function (item, index, results) {
+            ExportsFull.insert(item);
+        })
+   }
+   if (ExportsHist.find().count() === 0) {
+       var data = JSON.parse(Assets.getText("exporthist.json"));
+
+       results = data.exporthist
+       results.forEach(function (item, index, results) {
+           ExportsHist.insert(item);
+       })
+     }
+     if (ProductExportTop.find().count() === 0) {
+         var data = JSON.parse(Assets.getText("product_export_top.json"));
          data.forEach(function (item, index, results) {
-             Exports.insert(item);
+             ProductExportTop.insert(item);
          })
-
-    }
-
+       }
 });
 
 
@@ -26,6 +45,18 @@ Meteor.startup(() => {
     return News.find();
   });
 
-  Meteor.publish('exports', function exportsPublication() {
-    return Exports.find();
+  // Meteor.publish('exports', function exportsPublication() {
+  //   return Exports.find();
+  // });
+
+  Meteor.publish('exportsfull', function exportsPublication() {
+    return ExportsFull.find();
+  });
+
+  Meteor.publish('exportshist', function exportsPublication() {
+    return ExportsHist.find();
+  });
+
+  Meteor.publish('productexporttop', function exportsPublication() {
+    return ProductExportTop.find();
   });

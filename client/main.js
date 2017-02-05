@@ -50,13 +50,17 @@ Template.news.onCreated(function bodyOnCreated() {
   Meteor.subscribe('news');
 })
 
+
+
 Template.newsSmall.onCreated(function bodyOnCreated() {
   Meteor.subscribe('news');
 })
 
-// Template.trade.onCreated(function bodyOnCreated() {
-//   Meteor.subscribe('exports');
-// })
+Template.trade.onCreated(function bodyOnCreated() {
+  Meteor.subscribe('exportsfull');
+  Meteor.subscribe('exportshist');
+  Meteor.subscribe('productexporttop');
+})
 
 
 Template.news.helpers({
@@ -76,7 +80,6 @@ Template.newsSmall.helpers({
         var imageString = String(this.image)
         if (imageString.indexOf("//cts.re") >= 0 || imageString.indexOf("//www.emailwire.") >= 0){
           return true;
-        console.log(imageString);
           }
           else{
         return false;

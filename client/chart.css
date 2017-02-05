@@ -98,3 +98,24 @@ body {
   font-family: "Muli";
   font-size: 1.4em;
 }
+
+.greyaxis {
+  fill: #AAAAAA;
+  font-family: "Muli";
+}
+.greyaxis path,
+.greyaxis line {
+  stroke: #DDDDDD;
+  stroke-width: 0.5;
+  shape-rendering: crispEdges;
+  fill: none;
+}
+
+/*
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #DDDDDD;
+    stroke-width: 0.5;
+    shape-rendering: crispEdges;
+}*/

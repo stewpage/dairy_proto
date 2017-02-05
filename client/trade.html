@@ -1,13 +1,40 @@
 <template name="trade">
-<div class="container col-xs-12 col-sm-4 col-md-5 col-lg-4" id="donut-charts">
-<div class="select-style">
-<select id="month-select" class="dropdown">
-    <option  disabled="disabled" selected="selected">Select year</option>
-    {{#each months}}
-        <option value="{{this}}">{{this}}</option>
-    {{/each}}
-</select>
+<row>
+  <div class="container-fluid select-style">
+  <select id="month-select" class="dropdown">
+      <option  disabled="disabled" selected="selected">Select year</option>
+      {{#each months}}
+          <option value="{{this}}">{{this}}</option>
+      {{/each}}
+  </select>
+</div>
+  <div class="container-fluid select-style">
+  <select id="product-select" class="dropdown">
+      <option  disabled="disabled" selected="selected">Select product</option>
+      {{#each products}}
+          <option value="{{this}}">{{this}}</option>
+      {{/each}}
+  </select>
+  </div>
+</row>
+<row>
+  <div class="container export col-xs-12 col-sm-4 col-md-6 col-lg-6">
+    <h4> All exports {{session "donutmonth"}}</h4>
+  {{> reactiveTable settings=settings collection=myCollection}}
+  </div>
+<div class="container export col-xs-12 col-sm-4 col-md-5 col-lg-4">
+  <div id="donut-charts">
+  <h4> Top 10 countries {{session "donutmonth"}}</h4>
+  <br/>
 </div>
 </div>
+</row>
 
+<row>
+  <div class="container exporthist col-xs-12 col-sm-9 col-md-10 col-lg-10" id ="linechart">
+    <h4> Export history</h4>
+    <div id="exportqtylinechart" >
+    </div>
+  </div>
+</row>
 </template>

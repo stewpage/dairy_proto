@@ -180,3 +180,41 @@ max-width: 100px;
 .select-style select:focus {
     outline: none;
 }
+
+.red{
+  background-color: red;
+}
+
+.reactive-table{
+  font-family: "Muli";
+}
+.reactive-table thead > tr > th {
+  border-bottom: 1px solid #00BB00;
+}
+
+.reactive-table-navigation, form-control{
+  font-family: "Muli";
+  margin-top: -20px;
+}
+
+.reactive-table-navigation input.form-control{
+   min-width: 30px;
+   max-width: 35px;
+}
+
+.export{
+  min-height: 450px;
+  max-height: 450px;
+  overflow-y: scroll;
+  margin-right: 1px;
+  margin-left: -1px;
+  margin-bottom: 20px;
+  border: 1px solid #EFEFEF;
+}
+
+.exporthist{
+  margin-right: 1px;
+  min-height: 400px;
+  max-height: 400px;
+  border: 1px solid #EFEFEF;
+}
