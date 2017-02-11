@@ -17,6 +17,7 @@ h4{
   padding-right: 3%;
 }
 
+
 .navbar-default .navbar-brand {
         color: #00BB00;
         font-family: "Muli";
@@ -63,6 +64,12 @@ h4{
 font-family:Muli;
 font-size: 25px;
 padding-left: 20px;
+}
+
+.tradeHeading{
+font-family:Muli;
+font-size: 25px;
+margin-left: -10px;
 }
 
 .article {
@@ -200,7 +207,7 @@ max-width: 100px;
     font-size: 15px;
     font-weight: lighter;
     padding-top: -0.1em;
-    margin-top: -0.3em;
+    margin-top: -0.2em;
     margin-left: 92%;
     left:5px;
     position: absolute;
@@ -229,8 +236,8 @@ max-width: 100px;
   min-height: 450px;
   max-height: 450px;
   overflow-y: scroll;
-  margin-right: 1px;
-  margin-left: -1px;
+  /*margin-right: 1px;
+  margin-left: -1px;*/
   margin-bottom: 20px;
   border: 1px solid #EFEFEF;
 }

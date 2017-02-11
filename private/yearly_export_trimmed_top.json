@@ -151,12 +151,12 @@
             {
                 "data": [
                     {
-                        "cat": "U ARAB EMTS", 
-                        "val": 127.17
+                        "cat": "BHUTAN", 
+                        "val": 934.04
                     }, 
                     {
-                        "cat": "BHUTAN", 
-                        "val": 64.34
+                        "cat": "U ARAB EMTS", 
+                        "val": 127.17
                     }, 
                     {
                         "cat": "CANADA", 
@@ -164,7 +164,7 @@
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 20.51
+                        "val": 22.09
                     }, 
                     {
                         "cat": "SINGAPORE", 
@@ -179,7 +179,7 @@
                         "val": 0.0
                     }
                 ], 
-                "total": 127.17, 
+                "total": 934.04, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -758,11 +758,11 @@
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 210.45
+                        "val": 336.28
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 57.89
+                        "val": 58.82
                     }, 
                     {
                         "cat": "U S A", 
@@ -774,22 +774,22 @@
                     }, 
                     {
                         "cat": "OMAN", 
-                        "val": 2.83
+                        "val": 3.05
                     }, 
                     {
                         "cat": "SINGAPORE", 
                         "val": 2.09
                     }, 
                     {
-                        "cat": "HONG KONG", 
-                        "val": 1.0
+                        "cat": "MALAYSIA", 
+                        "val": 1.35
                     }, 
                     {
                         "cat": "others", 
-                        "val": 2.0199999999997544
+                        "val": 3.0900000000001455
                     }
                 ], 
-                "total": 1534.6, 
+                "total": 1663.0, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -1172,7 +1172,7 @@
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 20.83
+                        "val": 21.43
                     }, 
                     {
                         "cat": "QATAR", 
@@ -1738,27 +1738,27 @@
                 "data": [
                     {
                         "cat": "SRI LANKA DSR", 
-                        "val": 134.6
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 76.3
+                        "val": 134.85
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 62.68
+                        "val": 102.01
+                    }, 
+                    {
+                        "cat": "BANGLADESH PR", 
+                        "val": 76.59
                     }, 
                     {
                         "cat": "KENYA", 
-                        "val": 27.3
-                    }, 
-                    {
-                        "cat": "UGANDA", 
-                        "val": 24.25
+                        "val": 28.36
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 13.63
+                        "val": 25.89
+                    }, 
+                    {
+                        "cat": "UGANDA", 
+                        "val": 24.38
                     }, 
                     {
                         "cat": "AUSTRALIA", 
@@ -1770,10 +1770,10 @@
                     }, 
                     {
                         "cat": "others", 
-                        "val": 46.81
+                        "val": 48.019999999999925
                     }
                 ], 
-                "total": 407.66, 
+                "total": 462.19, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -2428,11 +2428,11 @@
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 210.45
+                        "val": 336.28
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 57.89
+                        "val": 58.82
                     }, 
                     {
                         "cat": "U S A", 
@@ -2444,22 +2444,22 @@
                     }, 
                     {
                         "cat": "OMAN", 
-                        "val": 2.83
+                        "val": 3.05
                     }, 
                     {
                         "cat": "SINGAPORE", 
                         "val": 2.09
                     }, 
                     {
-                        "cat": "HONG KONG", 
-                        "val": 1.0
+                        "cat": "MALAYSIA", 
+                        "val": 1.35
                     }, 
                     {
                         "cat": "others", 
-                        "val": 2.0199999999997544
+                        "val": 3.0900000000001455
                     }
                 ], 
-                "total": 1534.6, 
+                "total": 1663.0, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -3102,7 +3102,7 @@
                 "data": [
                     {
                         "cat": "NEPAL", 
-                        "val": 34.24
+                        "val": 40.82
                     }, 
                     {
                         "cat": "FIJI IS", 
@@ -3125,19 +3125,19 @@
                         "val": 10.95
                     }, 
                     {
+                        "cat": "AFGHANISTAN TIS", 
+                        "val": 3.51
+                    }, 
+                    {
                         "cat": "U S A", 
                         "val": 1.46
                     }, 
                     {
-                        "cat": "TANZANIA REP", 
-                        "val": 0.83
-                    }, 
-                    {
                         "cat": "others", 
-                        "val": 0.37999999999999545
+                        "val": 2.5800000000000125
                     }
                 ], 
-                "total": 129.28, 
+                "total": 140.74, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -3788,15 +3788,15 @@
                 "data": [
                     {
                         "cat": "SINGAPORE", 
-                        "val": 635.85
+                        "val": 723.04
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 460.13
+                        "val": 487.88
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 168.55
+                        "val": 224.42
                     }, 
                     {
                         "cat": "BHUTAN", 
@@ -3804,26 +3804,26 @@
                     }, 
                     {
                         "cat": "HONG KONG", 
-                        "val": 73.75
+                        "val": 83.38
                     }, 
                     {
                         "cat": "PHILIPPINES", 
-                        "val": 27.3
+                        "val": 38.58
+                    }, 
+                    {
+                        "cat": "MALAYSIA", 
+                        "val": 10.14
                     }, 
                     {
                         "cat": "TOGO", 
                         "val": 9.23
                     }, 
                     {
-                        "cat": "MALDIVES", 
-                        "val": 5.41
-                    }, 
-                    {
                         "cat": "others", 
-                        "val": 2.25
+                        "val": 10.660000000000082
                     }
                 ], 
-                "total": 1476.77, 
+                "total": 1681.63, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -4474,42 +4474,42 @@
                 "data": [
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 6903.66
+                        "val": 7969.18
+                    }, 
+                    {
+                        "cat": "SINGAPORE", 
+                        "val": 1535.55
                     }, 
                     {
                         "cat": "BHUTAN", 
                         "val": 1323.12
                     }, 
                     {
-                        "cat": "SINGAPORE", 
-                        "val": 1321.15
-                    }, 
-                    {
                         "cat": "U S A", 
-                        "val": 942.37
+                        "val": 1114.37
                     }, 
                     {
                         "cat": "SAUDI ARAB", 
-                        "val": 874.05
+                        "val": 1031.04
                     }, 
                     {
                         "cat": "AUSTRALIA", 
-                        "val": 821.3
+                        "val": 946.15
                     }, 
                     {
                         "cat": "OMAN", 
-                        "val": 708.34
+                        "val": 895.32
                     }, 
                     {
                         "cat": "QATAR", 
-                        "val": 702.12
+                        "val": 794.37
                     }, 
                     {
                         "cat": "others", 
-                        "val": 2896.720000000003
+                        "val": 3248.6100000000006
                     }
                 ], 
-                "total": 16492.83, 
+                "total": 18857.71, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -5164,11 +5164,11 @@
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 210.45
+                        "val": 334.95
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 34.55
+                        "val": 35.48
                     }, 
                     {
                         "cat": "U S A", 
@@ -5180,22 +5180,22 @@
                     }, 
                     {
                         "cat": "OMAN", 
-                        "val": 2.83
+                        "val": 3.05
                     }, 
                     {
                         "cat": "SINGAPORE", 
                         "val": 2.09
                     }, 
                     {
-                        "cat": "HONG KONG", 
-                        "val": 1.0
+                        "cat": "MALAYSIA", 
+                        "val": 1.35
                     }, 
                     {
                         "cat": "others", 
-                        "val": 1.9700000000000273
+                        "val": 3.0499999999999545
                     }
                 ], 
-                "total": 1511.21, 
+                "total": 1638.29, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -5850,23 +5850,23 @@
                     }, 
                     {
                         "cat": "U S A", 
-                        "val": 42.34
+                        "val": 49.46
                     }, 
                     {
                         "cat": "SINGAPORE", 
-                        "val": 35.38
+                        "val": 38.44
                     }, 
                     {
                         "cat": "MALAYSIA", 
                         "val": 32.06
                     }, 
                     {
-                        "cat": "NEPAL", 
-                        "val": 21.66
+                        "cat": "U ARAB EMTS", 
+                        "val": 22.47
                     }, 
                     {
-                        "cat": "U ARAB EMTS", 
-                        "val": 13.76
+                        "cat": "NEPAL", 
+                        "val": 21.66
                     }, 
                     {
                         "cat": "JAPAN", 
@@ -5878,10 +5878,10 @@
                     }, 
                     {
                         "cat": "others", 
-                        "val": 7.010000000000105
+                        "val": 7.220000000000027
                     }
                 ], 
-                "total": 605.54, 
+                "total": 624.64, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -6954,19 +6954,19 @@
                     }, 
                     {
                         "cat": "BANGLADESH PR", 
-                        "val": 4790.13
+                        "val": 6754.06
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 1936.13
+                        "val": 2118.53
                     }, 
                     {
                         "cat": "AFGHANISTAN TIS", 
-                        "val": 1268.05
+                        "val": 1568.69
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 416.19
+                        "val": 416.2
                     }, 
                     {
                         "cat": "U S A", 
@@ -6982,10 +6982,10 @@
                     }, 
                     {
                         "cat": "others", 
-                        "val": 1.1599999999980355
+                        "val": 2.5499999999992724
                     }
                 ], 
-                "total": 16115.98, 
+                "total": 18564.35, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -7620,19 +7620,19 @@
                 "data": [
                     {
                         "cat": "NEPAL", 
-                        "val": 423.89
+                        "val": 457.6
                     }, 
                     {
                         "cat": "U S A", 
-                        "val": 164.9
+                        "val": 186.01
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 69.68
+                        "val": 71.47
                     }, 
                     {
                         "cat": "AUSTRALIA", 
-                        "val": 61.28
+                        "val": 62.2
                     }, 
                     {
                         "cat": "QATAR", 
@@ -7652,10 +7652,10 @@
                     }, 
                     {
                         "cat": "others", 
-                        "val": 59.63999999999987
+                        "val": 61.54999999999984
                     }
                 ], 
-                "total": 951.51, 
+                "total": 1010.95, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -8310,15 +8310,15 @@
                     }, 
                     {
                         "cat": "BANGLADESH PR", 
-                        "val": 5378.81
+                        "val": 7342.75
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 2614.14
+                        "val": 2848.75
                     }, 
                     {
                         "cat": "AFGHANISTAN TIS", 
-                        "val": 1268.05
+                        "val": 1568.69
                     }, 
                     {
                         "cat": "BHUTAN", 
@@ -8326,7 +8326,7 @@
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 416.83
+                        "val": 416.85
                     }, 
                     {
                         "cat": "U S A", 
@@ -8334,14 +8334,14 @@
                     }, 
                     {
                         "cat": "SINGAPORE", 
-                        "val": 15.47
+                        "val": 15.48
                     }, 
                     {
                         "cat": "others", 
-                        "val": 9.919999999998254
+                        "val": 11.330000000001746
                     }
                 ], 
-                "total": 18301.49, 
+                "total": 20802.12, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -8991,16 +8991,20 @@
             {
                 "data": [
                     {
-                        "cat": "BANGLADESH PR", 
-                        "val": 341.92
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 325.76
+                        "cat": "UGANDA", 
+                        "val": 730.49
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 305.41
+                        "val": 385.81
+                    }, 
+                    {
+                        "cat": "BANGLADESH PR", 
+                        "val": 342.21
+                    }, 
+                    {
+                        "cat": "SRI LANKA DSR", 
+                        "val": 331.23
                     }, 
                     {
                         "cat": "ALGERIA", 
@@ -9008,26 +9012,22 @@
                     }, 
                     {
                         "cat": "KENYA", 
-                        "val": 153.62
-                    }, 
-                    {
-                        "cat": "UGANDA", 
-                        "val": 114.52
+                        "val": 171.76
                     }, 
                     {
                         "cat": "SAUDI ARAB", 
                         "val": 107.12
                     }, 
                     {
-                        "cat": "NICARAGUA", 
-                        "val": 57.83
+                        "cat": "U ARAB EMTS", 
+                        "val": 62.59
                     }, 
                     {
                         "cat": "others", 
-                        "val": 410.1600000000001
+                        "val": 444.73
                     }
                 ], 
-                "total": 2035.24, 
+                "total": 2794.84, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -9658,11 +9658,11 @@
                 "data": [
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 93.8
+                        "val": 131.62
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 12.21
+                        "val": 17.55
                     }, 
                     {
                         "cat": "SINGAPORE", 
@@ -9670,10 +9670,10 @@
                     }, 
                     {
                         "cat": "QATAR", 
-                        "val": 0.39
+                        "val": 0.8
                     }
                 ], 
-                "total": 93.8, 
+                "total": 131.62, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -10160,400 +10160,6 @@
             {
                 "data": [
                     {
-                        "cat": "OMAN", 
-                        "val": 9.41
-                    }, 
-                    {
-                        "cat": "MOZAMBIQUE", 
-                        "val": 3.37
-                    }, 
-                    {
-                        "cat": "U S A", 
-                        "val": 3.02
-                    }
-                ], 
-                "total": 9.41, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2009-2010", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "NEPAL", 
-                        "val": 263.23
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 34.4
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 3.18
-                    }, 
-                    {
-                        "cat": "OMAN", 
-                        "val": 1.39
-                    }, 
-                    {
-                        "cat": "NIGERIA", 
-                        "val": 0.57
-                    }, 
-                    {
-                        "cat": "UGANDA", 
-                        "val": 0.27
-                    }, 
-                    {
-                        "cat": "TANZANIA REP", 
-                        "val": 0.04
-                    }
-                ], 
-                "total": 263.23, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2014-2015", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "NIGERIA", 
-                        "val": 14.05
-                    }, 
-                    {
-                        "cat": "MOZAMBIQUE", 
-                        "val": 0.72
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 0.63
-                    }
-                ], 
-                "total": 14.05, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2005-2006", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 23.34
-                    }, 
-                    {
-                        "cat": "NEW ZEALAND", 
-                        "val": 0.05
-                    }
-                ], 
-                "total": 23.34, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2016-2017(Apr-Oct)", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 2.91
-                    }, 
-                    {
-                        "cat": "U S A", 
-                        "val": 1.51
-                    }, 
-                    {
-                        "cat": "QATAR", 
-                        "val": 0.77
-                    }, 
-                    {
-                        "cat": "SIERRA LEONE", 
-                        "val": 0.03
-                    }
-                ], 
-                "total": 2.91, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2007-2008", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "OMAN", 
-                        "val": 29.6
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 18.85
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 13.84
-                    }, 
-                    {
-                        "cat": "VIETNAM SOC REP", 
-                        "val": 1.18
-                    }, 
-                    {
-                        "cat": "UKRAINE", 
-                        "val": 0.41
-                    }, 
-                    {
-                        "cat": "NEW ZEALAND", 
-                        "val": 0.09
-                    }
-                ], 
-                "total": 29.6, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2013-2014", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "OMAN", 
-                        "val": 2.28
-                    }, 
-                    {
-                        "cat": "U K", 
-                        "val": 0.52
-                    }, 
-                    {
-                        "cat": "U S A", 
-                        "val": 0.07
-                    }
-                ], 
-                "total": 2.28, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2004-2005", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 33.88
-                    }, 
-                    {
-                        "cat": "GHANA", 
-                        "val": 2.11
-                    }
-                ], 
-                "total": 33.88, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2015-2016", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 43.07
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 26.42
-                    }
-                ], 
-                "total": 43.07, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2003-2004", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "Total", 
-                        "val": 2.74
-                    }
-                ], 
-                "total": 2.74, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2011-2012", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "NEPAL", 
-                        "val": 1.66
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 0.16
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 0.13
-                    }
-                ], 
-                "total": 1.66, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2006-2007", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "OMAN", 
-                        "val": 10.9
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 3.78
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 1.49
-                    }
-                ], 
-                "total": 10.9, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2010-2011", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 5.3
-                    }, 
-                    {
-                        "cat": "MAURITIUS", 
-                        "val": 4.72
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 4.39
-                    }, 
-                    {
-                        "cat": "MALDIVES", 
-                        "val": 0.96
-                    }, 
-                    {
-                        "cat": "CANADA", 
-                        "val": 0.52
-                    }, 
-                    {
-                        "cat": "BRUNEI", 
-                        "val": 0.2
-                    }, 
-                    {
-                        "cat": "GHANA", 
-                        "val": 0.17
-                    }, 
-                    {
-                        "cat": "GUINEA", 
-                        "val": 0.09
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 0.0
-                    }
-                ], 
-                "total": 16.35, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2008-2009", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "OMAN", 
-                        "val": 7.76
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 6.52
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 3.12
-                    }, 
-                    {
-                        "cat": "JAPAN", 
-                        "val": 0.58
-                    }, 
-                    {
-                        "cat": "MALDIVES", 
-                        "val": 0.03
-                    }
-                ], 
-                "total": 7.76, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2012-2013", 
-        "product": "04029920"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
                         "cat": "SINGAPORE", 
                         "val": 10.95
                     }, 
@@ -10682,7 +10288,7 @@
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 8.37
+                        "val": 9.58
                     }, 
                     {
                         "cat": "U S A", 
@@ -10693,27 +10299,27 @@
                         "val": 4.2
                     }, 
                     {
-                        "cat": "NEPAL", 
-                        "val": 2.61
+                        "cat": "QATAR", 
+                        "val": 4.09
                     }, 
                     {
-                        "cat": "QATAR", 
-                        "val": 2.06
+                        "cat": "NEPAL", 
+                        "val": 2.61
                     }, 
                     {
                         "cat": "HONG KONG", 
                         "val": 1.58
                     }, 
                     {
-                        "cat": "NEW ZEALAND", 
-                        "val": 0.31
+                        "cat": "MALDIVES", 
+                        "val": 0.49
                     }, 
                     {
                         "cat": "others", 
-                        "val": 0.35999999999999943
+                        "val": 0.5699999999999932
                     }
                 ], 
-                "total": 81.72, 
+                "total": 85.35, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -11136,636 +10742,6 @@
             {
                 "data": [
                     {
-                        "cat": "SINGAPORE", 
-                        "val": 979.7
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 261.9
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 84.35
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 58.77
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 54.13
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 40.31
-                    }, 
-                    {
-                        "cat": "UGANDA", 
-                        "val": 29.39
-                    }, 
-                    {
-                        "cat": "OMAN", 
-                        "val": 22.23
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 105.26999999999998
-                    }
-                ], 
-                "total": 1636.05, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2009-2010", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 249.0
-                    }, 
-                    {
-                        "cat": "TURKEY", 
-                        "val": 159.44
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 141.5
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 12.32
-                    }
-                ], 
-                "total": 249.0, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2014-2015", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 318.11
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 85.1
-                    }, 
-                    {
-                        "cat": "CANADA", 
-                        "val": 48.74
-                    }, 
-                    {
-                        "cat": "IRAN", 
-                        "val": 33.2
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 18.72
-                    }, 
-                    {
-                        "cat": "CHINA P RP", 
-                        "val": 17.47
-                    }, 
-                    {
-                        "cat": "SURINAME", 
-                        "val": 17.1
-                    }, 
-                    {
-                        "cat": "OMAN", 
-                        "val": 10.49
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 25.559999999999945
-                    }
-                ], 
-                "total": 574.49, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2005-2006", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 93.8
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 12.21
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 7.66
-                    }, 
-                    {
-                        "cat": "QATAR", 
-                        "val": 0.39
-                    }
-                ], 
-                "total": 93.8, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2016-2017(Apr-Oct)", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 792.78
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 495.38
-                    }, 
-                    {
-                        "cat": "BOTSWANA", 
-                        "val": 111.8
-                    }, 
-                    {
-                        "cat": "EGYPT A RP", 
-                        "val": 96.62
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 78.31
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 43.11
-                    }, 
-                    {
-                        "cat": "SEYCHELLES", 
-                        "val": 32.67
-                    }, 
-                    {
-                        "cat": "SAUDI ARAB", 
-                        "val": 31.71
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 200.49
-                    }
-                ], 
-                "total": 1882.87, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2007-2008", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 266.41
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 61.72
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 12.43
-                    }, 
-                    {
-                        "cat": "TURKEY", 
-                        "val": 10.43
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 5.43
-                    }
-                ], 
-                "total": 266.41, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2013-2014", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 117.79
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 59.09
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 24.3
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 20.1
-                    }, 
-                    {
-                        "cat": "TAIWAN", 
-                        "val": 15.86
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 13.07
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 9.69
-                    }, 
-                    {
-                        "cat": "U K", 
-                        "val": 6.39
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 22.230000000000018
-                    }
-                ], 
-                "total": 288.52, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2004-2005", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 246.89
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 15.57
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 10.66
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 6.61
-                    }, 
-                    {
-                        "cat": "ZAMBIA", 
-                        "val": 2.73
-                    }, 
-                    {
-                        "cat": "MYANMAR", 
-                        "val": 1.55
-                    }, 
-                    {
-                        "cat": "QATAR", 
-                        "val": 0.64
-                    }, 
-                    {
-                        "cat": "MALDIVES", 
-                        "val": 0.16
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 0.05999999999994543
-                    }
-                ], 
-                "total": 284.87, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2015-2016", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "YEMEN REPUBLC", 
-                        "val": 71.15
-                    }, 
-                    {
-                        "cat": "GHANA", 
-                        "val": 2.56
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 1.24
-                    }, 
-                    {
-                        "cat": "NETHERLAND", 
-                        "val": 0.74
-                    }, 
-                    {
-                        "cat": "JAPAN", 
-                        "val": 0.3
-                    }, 
-                    {
-                        "cat": "MAURITIUS", 
-                        "val": 0.04
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 0.03
-                    }, 
-                    {
-                        "cat": "THAILAND", 
-                        "val": 0.03
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 0.009999999999990905
-                    }
-                ], 
-                "total": 76.1, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2003-2004", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "NEPAL", 
-                        "val": 2613.78
-                    }, 
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 917.6
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 229.81
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 83.08
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 82.24
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 7.11
-                    }, 
-                    {
-                        "cat": "BRUNEI", 
-                        "val": 5.74
-                    }, 
-                    {
-                        "cat": "QATAR", 
-                        "val": 2.35
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 1.3800000000005639
-                    }
-                ], 
-                "total": 3943.09, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2011-2012", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 659.57
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 167.32
-                    }, 
-                    {
-                        "cat": "BRUNEI", 
-                        "val": 64.74
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 47.17
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 24.76
-                    }, 
-                    {
-                        "cat": "OMAN", 
-                        "val": 20.43
-                    }, 
-                    {
-                        "cat": "IRAN", 
-                        "val": 19.37
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 14.01
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 47.44999999999993
-                    }
-                ], 
-                "total": 1064.82, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2006-2007", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 522.95
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 161.23
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 143.25
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 61.23
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 56.99
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 20.39
-                    }, 
-                    {
-                        "cat": "SRI LANKA DSR", 
-                        "val": 18.54
-                    }, 
-                    {
-                        "cat": "SEYCHELLES", 
-                        "val": 18.31
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 21.280000000000086
-                    }
-                ], 
-                "total": 1024.17, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2010-2011", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 1434.67
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 310.91
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 134.74
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 101.44
-                    }, 
-                    {
-                        "cat": "QATAR", 
-                        "val": 41.01
-                    }, 
-                    {
-                        "cat": "BRUNEI", 
-                        "val": 40.98
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 39.21
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 33.58
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 186.67000000000007
-                    }
-                ], 
-                "total": 2323.21, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2008-2009", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
-                        "cat": "SINGAPORE", 
-                        "val": 1106.39
-                    }, 
-                    {
-                        "cat": "NEPAL", 
-                        "val": 625.27
-                    }, 
-                    {
-                        "cat": "U ARAB EMTS", 
-                        "val": 307.33
-                    }, 
-                    {
-                        "cat": "HONG KONG", 
-                        "val": 96.63
-                    }, 
-                    {
-                        "cat": "PHILIPPINES", 
-                        "val": 31.16
-                    }, 
-                    {
-                        "cat": "BHUTAN", 
-                        "val": 20.9
-                    }, 
-                    {
-                        "cat": "MALDIVES", 
-                        "val": 1.62
-                    }, 
-                    {
-                        "cat": "BANGLADESH PR", 
-                        "val": 0.91
-                    }, 
-                    {
-                        "cat": "others", 
-                        "val": 0.5000000000004547
-                    }
-                ], 
-                "total": 2190.71, 
-                "type": "Export value", 
-                "unit": " Lakh Rs"
-            }
-        ], 
-        "month": "2012-2013", 
-        "product": "04015000"
-    }, 
-    {
-        "exports": [
-            {
-                "data": [
-                    {
                         "cat": "U S A", 
                         "val": 18150.01
                     }, 
@@ -11914,42 +10890,42 @@
                 "data": [
                     {
                         "cat": "U S A", 
-                        "val": 41914.28
+                        "val": 46743.26
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 17101.16
+                        "val": 20091.75
                     }, 
                     {
                         "cat": "U K", 
-                        "val": 14569.4
+                        "val": 15925.11
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 13322.41
+                        "val": 15296.13
                     }, 
                     {
                         "cat": "BANGLADESH PR", 
-                        "val": 12736.8
+                        "val": 14789.38
                     }, 
                     {
                         "cat": "CANADA", 
-                        "val": 7219.73
+                        "val": 7871.52
                     }, 
                     {
                         "cat": "AUSTRALIA", 
-                        "val": 6988.18
+                        "val": 7548.77
                     }, 
                     {
                         "cat": "SAUDI ARAB", 
-                        "val": 5877.38
+                        "val": 6577.42
                     }, 
                     {
                         "cat": "others", 
-                        "val": 86852.9
+                        "val": 98654.37999999998
                     }
                 ], 
-                "total": 206582.24, 
+                "total": 233497.72, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -12604,7 +11580,7 @@
                     }, 
                     {
                         "cat": "NEPAL", 
-                        "val": 11.74
+                        "val": 14.68
                     }, 
                     {
                         "cat": "TANZANIA REP", 
@@ -13221,6 +12197,10 @@
                         "val": 20.59
                     }, 
                     {
+                        "cat": "SINGAPORE", 
+                        "val": 1.53
+                    }, 
+                    {
                         "cat": "MALDIVES", 
                         "val": 0.64
                     }
@@ -13780,42 +12760,42 @@
                 "data": [
                     {
                         "cat": "NEPAL", 
-                        "val": 453.7
+                        "val": 505.09
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 430.99
+                        "val": 473.72
                     }, 
                     {
                         "cat": "U S A", 
-                        "val": 270.41
+                        "val": 326.12
                     }, 
                     {
                         "cat": "SINGAPORE", 
-                        "val": 228.47
+                        "val": 259.73
                     }, 
                     {
                         "cat": "AUSTRALIA", 
-                        "val": 148.13
+                        "val": 177.6
                     }, 
                     {
                         "cat": "MALDIVES", 
-                        "val": 114.06
+                        "val": 114.12
                     }, 
                     {
                         "cat": "OMAN", 
                         "val": 92.91
                     }, 
                     {
-                        "cat": "BHUTAN", 
-                        "val": 67.73
+                        "cat": "QATAR", 
+                        "val": 72.04
                     }, 
                     {
                         "cat": "others", 
-                        "val": 443.26999999999975
+                        "val": 489.36000000000035
                     }
                 ], 
-                "total": 2249.67, 
+                "total": 2510.69, 
                 "type": "Export value", 
                 "unit": " Lakh Rs"
             }
@@ -14290,7 +13270,7 @@
                     }, 
                     {
                         "cat": "U ARAB EMTS", 
-                        "val": 20.83
+                        "val": 21.43
                     }, 
                     {
                         "cat": "QATAR", 
