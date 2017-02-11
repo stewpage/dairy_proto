@@ -1,27 +1,29 @@
 <template name="trade">
 <row>
-  <div class=container>
-  <div class="select-style red">
+  <div class="container col-xs-12 col-sm-3 col-md-3 col-lg-2">
+  <div class="select-style">
   <select id="month-select" class="dropdown ">
-      <option  disabled="disabled" selected="selected">Select year</option>
+      <option disabled="disabled" selected="selected">Select year</option>
       {{#each months}}
           <option value="{{this}}">{{this}}</option>
       {{/each}}
   </select>
 </div>
-  <div class="select-style ">
-  <select id="product-select" class="dropdown">
-      <option  disabled="disabled" selected="selected">Select product</option>
+</div>
+<div class="container col-xs-12 col-sm-6 col-md-7 col-lg-8">
+<div class="select-style">
+<select id="product-select" class="dropdown">
+    <option disabled="disabled" selected="selected">Select product</option>
 
-      {{#each products}}
-          <option value="{{this}}">{{this}}</option>
-      {{/each}}
-  </select>
-  </div>
+    {{#each products}}
+        <option value="{{this}}">{{milkProduct}}</option>
+    {{/each}}
+</select>
+</div>
 </div>
 </row>
 <row>
-  <div class="container export col-xs-12 col-sm-4 col-md-6 col-lg-6">
+  <div class="container export col-xs-12 col-sm-5 col-md-6 col-lg-6">
     <h4> All exports {{session "donutmonth"}}</h4>
 
   {{> reactiveTable settings=settings collection=myCollection}}

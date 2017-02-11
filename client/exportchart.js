@@ -4,7 +4,7 @@ Template.trade.onRendered(function () {
   this.autorun(function () {
 
       Session.set('donutmonth', "2015-2016");
-      Session.set('donutproduct', "0405");
+      Session.set('donutproduct', "19");
     var subs = Meteor.subscribe("productexporttop");
     this.autorun(function() {
       if (subs.ready()) {
@@ -22,7 +22,7 @@ Template.trade.onRendered(function () {
       $.getJSON("donutdata.json", function(json) {
           var dataset2 = json;
           // var donutData = dataset2
-          var donutData = coldata
+          var donutData = coldata;
         var donuts = new DonutCharts();
         donuts.create(donutData);
 

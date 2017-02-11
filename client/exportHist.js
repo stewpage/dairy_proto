@@ -4,8 +4,12 @@ Template.trade.onRendered(function () {
   this.autorun(function () {
 var subs = Meteor.subscribe("exportshist");
     if (subs.ready()) {
+
       console.log("> Export hist subs ready. \n\n");
-      histdata = ExportsHist.find().fetch();
+      var selectedProduct = Session.get('donutproduct');
+      histdata2 = ExportsHist2.find().fetch();
+      histdata = ExportsHist.find({product:selectedProduct}).fetch()[0].exports
+
       function compare(a,b) {
         if (a.date < b.date)
         return -1;
@@ -14,10 +18,10 @@ var subs = Meteor.subscribe("exportshist");
         return 0;
         }
       var jsonhist = histdata.sort(compare)
-
+      var jsonhist2 = histdata2.sort(compare)
 
     // start dual-axis chart
-    var margin = {top: 30, right: 40, bottom: 30, left: 40},
+    var margin = {top: 30, right: 45, bottom: 30, left: 45},
     width = 800 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
@@ -44,6 +48,7 @@ var valueline2 = d3.svg.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y1(d.qty); });
 
+d3.selectAll("div.svg-container").remove();
 var svg2 = d3.select("div#exportqtylinechart")
         .append("div")
         .classed("svg-container", true)
@@ -105,28 +110,28 @@ var svg2 = d3.select("div#exportqtylinechart")
         .call(yAxisRight);
 
     svg2.append("text")
-                .attr("x", 25)
+                .attr("x", 595)
                 .attr("y", 215)
                 .text('Quantity (1000 units)')
                 .attr("font-size", "12px")
                 .attr("fill",[ "#ff7f0e"]);
     svg2.append("text")
-                .attr("x", 25)
+                .attr("x", 595)
                 .attr("y", 230)
                 .text("Value (lakh Rs)")
                 .attr("font-size", "12px")
                 .attr("fill","#1f77b4");
     svg2.append("line")          // attach a line
                 .style("stroke", "#ff7f0e")  // colour the line
-                .attr("x1", 10)     // x position of the first end of the line
+                .attr("x1", 575)     // x position of the first end of the line
                 .attr("y1", 212)      // y position of the first end of the line
-                .attr("x2", 20)     // x position of the second end of the line
+                .attr("x2", 585)     // x position of the second end of the line
                 .attr("y2", 212);
     svg2.append("line")          // attach a line
                 .style("stroke", "#1f77b4") // colour the line
-                .attr("x1", 10)     // x position of the first end of the line
+                .attr("x1", 575)     // x position of the first end of the line
                 .attr("y1", 227)      // y position of the first end of the line
-                .attr("x2", 20)     // x position of the second end of the line
+                .attr("x2", 585)     // x position of the second end of the line
                 .attr("y2", 227);
 
 } else {

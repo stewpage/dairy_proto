@@ -19,21 +19,20 @@ Meteor.startup(() => {
 
     // }
     if (ExportsFull.find().count() === 0) {
-        var data = JSON.parse(Assets.getText("exportdata_full.json"));
+        var data = JSON.parse(Assets.getText("yearly_export_full.json"));
         data.forEach(function (item, index, results) {
             ExportsFull.insert(item);
         })
    }
+
    if (ExportsHist.find().count() === 0) {
        var data = JSON.parse(Assets.getText("exporthist.json"));
-
-       results = data.exporthist
-       results.forEach(function (item, index, results) {
+       data.forEach(function (item, index, results) {
            ExportsHist.insert(item);
        })
      }
      if (ProductExportTop.find().count() === 0) {
-         var data = JSON.parse(Assets.getText("product_export_top.json"));
+         var data = JSON.parse(Assets.getText("yearly_export_trimmed_top.json"));
          data.forEach(function (item, index, results) {
              ProductExportTop.insert(item);
          })
