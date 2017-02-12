@@ -1,0 +1,53 @@
+<template name="imports">
+  <row>
+  <div class="container  col-xs-12 col-sm-10 col-md-10 col-lg-10">
+<p class="tradeHeading"> Imports </p>
+ </div>
+
+ </row>
+<row>
+  <div class="container col-xs-12 col-sm-4 col-md-4 col-lg-3">
+
+  <div class="select-style">
+  <select id="month-select" class="dropdown ">
+      <option disabled="disabled" selected="selected">Select year</option>
+      {{#each importmonths}}
+          <option value="{{this}}">{{this}}</option>
+      {{/each}}
+  </select>
+</div>
+</div>
+<div class="container col-xs-12 col-sm-5 col-md-6 col-lg-7">
+<div class="select-style">
+<select id="product-select" class="dropdown">
+    <option disabled="disabled" selected="selected">Select product</option>
+
+    {{#each importproducts}}
+        <option value="{{this}}">{{milkProductImp}}</option>
+    {{/each}}
+</select>
+</div>
+</div>
+</row>
+<row>
+  <div class="container export col-xs-12 col-sm-5 col-md-6 col-lg-6">
+    <h4> All exports {{session "importmonth"}}</h4>
+
+  {{> reactiveTable settings=importsettings collection=importCollection}}
+  </div>
+<div class="container export col-xs-12 col-sm-4 col-md-4 col-lg-4">
+  <div id="donut-charts">
+  <h4> Top 10 countries {{session "importmonth"}}</h4>
+  <br/>
+</div>
+</div>
+</row>
+
+<row>
+  <div class="container exporthist col-xs-12 col-sm-9 col-md-10 col-lg-10" id ="linechart">
+    <h4> Import history</h4>
+    <div id="importqtylinechart" >
+    </div>
+  </div>
+</row>
+</template>

@@ -21,6 +21,10 @@ Router.route('/trade', {
     template: 'trade'
 });
 
+Router.route('/imports', {
+    template: 'imports'
+});
+
 Router.route('/suppliers', {
     template: 'consumption'
 });
@@ -60,6 +64,12 @@ Template.trade.onCreated(function bodyOnCreated() {
   Meteor.subscribe('exportsfull');
   Meteor.subscribe('exportshist');
   Meteor.subscribe('productexporttop');
+})
+
+Template.imports.onCreated(function bodyOnCreated() {
+  Meteor.subscribe('importsfull');
+  Meteor.subscribe('importshist');
+  Meteor.subscribe('productimporttop');
 })
 
 

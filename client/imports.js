@@ -1,6 +1,6 @@
-Template.trade.helpers({
+Template.imports.helpers({
 
-  milkProduct:function () {
+  milkProductImp:function () {
     var converter = {'19':"foo",
     '0401':"MILK AND CREAM",
     '040140': "MILK AND CREAM, 6%-10% FAT",
@@ -34,17 +34,17 @@ Template.trade.helpers({
     '8434':"MILKING MACHINES AND DAIRY MACHINERY",
     '843410':"MILKING MACHINES",
     '84341000':"MILKING MACHINES",
-    '843490':"PARTS OF MILKNG AND DAIRY MACHINES",
+    '843490':"PARTS OF MILKING AND DAIRY MACHINES",
     '84349010':"PARTS OF MILKING MACHINERY",
-    '84388020':"MCHINERY FOR PRODUCTION OF SOYAMILK OR OTHER SOYA PRODUCTS(EXCEPT SOYA OIL)",
+    '84388020':"MACHINERY FOR PRODUCTION OF SOYAMILK OR OTHER SOYA PRODUCTS(EXCEPT SOYA OIL)",
     }
     return(converter[this]);
-
   },
-  months: function(){
-    var subs = Meteor.subscribe('productexporttop');
+  importmonths: function(){
+    var subs = Meteor.subscribe('productimporttop');
     if (subs.ready()) {
-      var months = ProductExportTop.find().fetch();
+      var months = ProductImportTop.find().fetch();
+
       var arrayLength = months.length;
       var monthlist = [];
       for (var i = 0; i < arrayLength; i++) {
@@ -58,16 +58,17 @@ Template.trade.helpers({
       // console.log(monthlist);
       // console.log(monthlist.sort());
       return monthlist.sort();
+
     } else {
       return;
     }
     },
 
-    products: function(){
+    importproducts: function(){
 
-      var subs = Meteor.subscribe('productexporttop');
+      var subs = Meteor.subscribe('productimporttop');
       if (subs.ready()) {
-        var products = ProductExportTop.find().fetch();
+        var products = ProductImportTop.find().fetch();
         var arrayLength = products.length;
         var productlist = [];
         for (var i = 0; i < arrayLength; i++) {
@@ -86,30 +87,32 @@ Template.trade.helpers({
       }
       },
 
-    myCollection: function(){
+    importCollection: function(){
 
-      var subs = Meteor.subscribe('exportsfull');
+      var subs = Meteor.subscribe('importsfull');
       if (subs.ready()) {
-        var selectedMonth = Session.get('donutmonth');
-        var selectedProduct = Session.get('donutproduct');
-        console.log("exports ready");
-        return ExportsFull.find({$and: [{year: selectedMonth},
+        var selectedMonth = Session.get('importmonth');
+        var selectedProduct = Session.get('importproduct');
+        console.log("imports ready");
+        console.log(ImportsFull.findOne())
+        return ImportsFull.find({$and: [{year: selectedMonth},
                                               {product:selectedProduct}]
-        }).fetch()[0].data
+        }).fetch()[0].data;
+
       } else {
         return;
       }
     },
 
-    // export table settings
-    settings: function () {
+    // import table settings
+    importsettings: function () {
         return {
            showFilter:false,
           showNavigationRowsPerPage:false,
           rowsPerPage:10,
           fields: [
             { key: 'country',  label: 'Country', sortOrder: 1, sortDirection: 'ascending'},
-    { key: 'exports', label: 'Yearly export value (USD)', sortOrder: 0, sortDirection: 'descending' }
+    { key: 'imports', label: 'Yearly import value (USD)', sortOrder: 0, sortDirection: 'descending' }
                   ]
         };
     }
@@ -122,17 +125,17 @@ Template.registerHelper('session',function(input){
     return Session.get(input);
 });
 
-Template.trade.events({
+Template.imports.events({
 
     "change #month-select": function (event, template) {
         var month = $(event.currentTarget).val();
-        Session.set('donutmonth', month);
+        Session.set('importmonth', month);
 
 
     },
     "change #product-select": function (event, template) {
         var product = $(event.currentTarget).val();
-        Session.set('donutproduct', product);
+        Session.set('importproduct', product);
 
     },
 });

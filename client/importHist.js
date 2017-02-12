@@ -1,13 +1,13 @@
 
-Template.trade.onRendered(function () {
+Template.imports.onRendered(function () {
 
   this.autorun(function () {
-var subs = Meteor.subscribe("exportshist");
+var subs = Meteor.subscribe("importshist");
     if (subs.ready()) {
 
-      console.log("> Export hist subs ready. \n\n");
-      var selectedProduct = Session.get('donutproduct');
-      histdata = ExportsHist.find({product:selectedProduct}).fetch()[0].exports
+      console.log("> Import hist subs ready. \n\n");
+      var selectedProduct = Session.get('importproduct');
+      histdata = ImportsHist.find({product:selectedProduct}).fetch()[0].imports;
 
       function compare(a,b) {
         if (a.date < b.date)
@@ -47,7 +47,7 @@ var valueline2 = d3.svg.line()
     .y(function(d) { return y1(d.qty); });
 
 d3.selectAll("div.svg-container").remove();
-var svg2 = d3.select("div#exportqtylinechart")
+var svg2 = d3.select("div#importqtylinechart")
         .append("div")
         .classed("svg-container", true)
         .append("svg")
