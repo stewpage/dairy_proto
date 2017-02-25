@@ -65,26 +65,26 @@ d3.tsv("production.tsv", type, function(error, data) {
 	  .text("#");
 
   svg.append("text")
-      .attr("x", 725)
+      .attr("x", 35)
       .attr("y", 25)
       .text('Per capita availability (g/day)')
       .attr("font-size", "12px")
       .attr("fill",[ "#ff7f0e"]);
   svg.append("text")
-      .attr("x", 725)
+      .attr("x", 35)
       .attr("y", 45)
       .text('Annual production (1000 tons)')
       .attr("font-size", "12px")
       .attr("fill",[ "#1f77b4"]);
 svg.append("rect")
           .attr("class", "bar2")
-          .attr("x", 705)
+          .attr("x", 20)
           .attr("y", 16)
           .attr("width", 10)
           .attr("height", 10);
 svg.append("rect")
           .attr("class", "bar1")
-          .attr("x", 705)
+          .attr("x", 20)
           .attr("y", 36)
           .attr("width", 10)
           .attr("height", 10);
