@@ -1,19 +1,26 @@
 <template name="news">
   <div class="container col-xs-12 col-sm-8 col-md-10 col-lg-11">
     <p class="newsHeading"> Dairy News </p>
-        <div>
+  </div>
+        <div >
+          <div class="visible-xs">
+            {{> newsSmall}}
+          </div>
             {{#each news}}
-                <div class="article">
-                  <h4>{{title}}</h4>
-                  <h5>{{date}}</h5>
+            <div class="articlelarge visible-sm visible-lg visible-md">
+                  <div class="article container col-xs-12 col-sm-6 col-md-8 col-lg-9">
+                    <h4>{{title}}</h4>
+                    <h5>{{date}}</h5>
+                        {{> articlebody}}
+                      <a href={{url}} target="_blank" class="articleLink"> Read article on {{source.title}}</a>
+                      <br/>
+                  </div>
+                <div class="articleImage container col-xs-12 col-sm-2 col-md-2 col-lg-2">
                   <img src={{image}} class="newsImage">
-                  {{> articlebody}}
-                  <a href={{url}} target="_blank" class="articleLink"> Read article on {{source.title}}</a>
-                  <br/>
+                </div>
               </div>
             {{/each}}
         </div>
-    </div>
 </template>
 
 <template name="articlebody">

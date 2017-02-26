@@ -2,12 +2,13 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 // News = new Mongo.Collection("news");
 Router.route('/', {
+  template: 'overview'
 });
 Router.route('/price', {
     template: 'price'
 });
-Router.route('/market_overview', {
-    template: 'market'
+Router.route('/overview', {
+    template: 'overview'
 });
 Router.route('/production', {
     template: 'production'
